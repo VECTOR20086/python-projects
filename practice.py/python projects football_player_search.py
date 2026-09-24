@@ -14,8 +14,8 @@ players_info = {
     "embappe": player2
 }
 player = input("enter a player : ")
-selected_player = players_info[player]
-if player in players:
+if player in players_info:
+    selected_player = players_info[player]
     print("player found")
 else:
     print("player not found")
